@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Viserio\Component\Container\Tester;
+namespace Viserio\Component\Container\Test;
 
 use PHPUnit\Framework\TestCase;
 use Viserio\Component\Container\ContainerBuilder;
 use Viserio\Component\Container\Dumper\PhpDumper;
 use Viserio\Component\Container\PipelineConfig;
-use Viserio\Component\Container\Tester\Pipeline\TestContainerPipe;
+use Viserio\Component\Container\Test\Pipeline\TestContainerPipe;
 
 /**
  * @internal
